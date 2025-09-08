@@ -408,11 +408,11 @@
 				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"\"/Users/zlcode/fvm/versions/stable/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"\"/Users/zlcode/fvm/versions/3.22.3/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"\"/Users/zlcode/fvm/versions/stable/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"\"/Users/zlcode/fvm/versions/3.22.3/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Target Support Files/Pods-FlutterIOS/Pods-FlutterIOS-Info.plist";
@@ -443,6 +443,25 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3CD717F76C513C6D729D7CE27FDE37A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1530E34FB19CA5A7E13130207C19D5 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		44A4B2FB6211B90C1949A44A381F6D1F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -527,11 +546,11 @@
 				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"\"/Users/zlcode/fvm/versions/stable/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"\"/Users/zlcode/fvm/versions/3.22.3/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"\"/Users/zlcode/fvm/versions/stable/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"\"/Users/zlcode/fvm/versions/3.22.3/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Target Support Files/Pods-FlutterIOS/Pods-FlutterIOS-Info.plist";
@@ -562,6 +581,25 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		823A143809FADF5490DD02010647A1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2794621FC2B7DAFF70E3CDB3B4043E /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		A0DC1C2C814704734F83EAB35BB20B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -629,7 +667,7 @@
 			};
 			name = Debug;
 		};
-		B0AD22997967310A1650F12017E3C2C7 /* Release */ = {
+		DF9E41DD3A4B5E74356EB60A8BEF29A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B059C8EAA06AF8FC08931E721038F864 /* FlutterPluginRegistrant.release.xcconfig */;
 			buildSettings = {
@@ -648,18 +686,18 @@
 				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"\"/Users/zlcode/fvm/versions/stable/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"\"/Users/zlcode/fvm/versions/3.22.3/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"\"/Users/zlcode/fvm/versions/stable/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"\"/Users/zlcode/fvm/versions/3.22.3/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -687,45 +725,7 @@
 			};
 			name = Release;
 		};
-		CB3A369004330A68D6CB0D804AE27792 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E1530E34FB19CA5A7E13130207C19D5 /* Flutter.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D8D83461AC915BEDCB4A478E1E489628 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B2794621FC2B7DAFF70E3CDB3B4043E /* Flutter.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DFFBA46802CC7CCEBC5643E3F5B22C07 /* Debug */ = {
+		F7A3EB396A11E70391BF0A057F796627 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6245B6AD89C0452D4CAEEB5CD05C5FE /* FlutterPluginRegistrant.debug.xcconfig */;
 			buildSettings = {
@@ -744,18 +744,18 @@
 				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"\"/Users/zlcode/fvm/versions/stable/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"\"/Users/zlcode/fvm/versions/3.22.3/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"\"/Users/zlcode/fvm/versions/stable/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"\"/Users/zlcode/fvm/versions/3.22.3/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -798,8 +798,8 @@
 		B26E11467D023FA6CDCE36F75198812F /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8D83461AC915BEDCB4A478E1E489628 /* Debug */,
-				CB3A369004330A68D6CB0D804AE27792 /* Release */,
+				823A143809FADF5490DD02010647A1AB /* Debug */,
+				3CD717F76C513C6D729D7CE27FDE37A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -807,8 +807,8 @@
 		C9C0BE58A278116122B314654A0C4A57 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFFBA46802CC7CCEBC5643E3F5B22C07 /* Debug */,
-				B0AD22997967310A1650F12017E3C2C7 /* Release */,
+				F7A3EB396A11E70391BF0A057F796627 /* Debug */,
+				DF9E41DD3A4B5E74356EB60A8BEF29A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

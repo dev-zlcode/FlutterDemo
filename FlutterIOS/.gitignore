@@ -46,7 +46,3 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
-
-
-Pods/
-Podfile.lock

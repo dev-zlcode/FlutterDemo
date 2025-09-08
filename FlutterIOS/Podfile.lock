@@ -14,8 +14,8 @@ EXTERNAL SOURCES:
     :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
 
 SPEC CHECKSUMS:
-  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  FlutterPluginRegistrant: 1bf2b93dcc6a731089dfe77f7a867be153c5008f
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  FlutterPluginRegistrant: 31c463909264601dccf8080d30b71b19413ad188
 
 PODFILE CHECKSUM: 677ad8bc1a32f18c52585f8a1c6be532d97867ab
 
